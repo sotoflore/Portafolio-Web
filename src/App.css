@@ -1,0 +1,9 @@
+:root {
+    --bg-gray: #dbeafe;
+    --bg-dark: #1b1b1f;
+    --color-primary: #5142fc;
+}
+body{
+    background-color: var(--bg-dark);
+    font-family: 'Kanit', sans-serif;
+}
