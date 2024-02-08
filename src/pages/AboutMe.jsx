@@ -12,6 +12,13 @@ import IconSkill from '../components/icons/IconSkill';
 import IconTelephone from '../components/icons/IconTelephone';
 import IconWork from '../components/icons/IconWork';
 
+import ImageCertificado1 from '../assets/certificaciones/imagen.jpg';
+import ImageCertificado2 from '../assets/certificaciones/imagen1.jpg';
+import ImageCertificado3 from '../assets/certificaciones/imagen2.jpg';
+import ImageCertificado4 from '../assets/certificaciones/imagen3.jpg';
+import ImageCertificado5 from '../assets/certificaciones/imagen4.jpg';
+import ImageCertificado6 from '../assets/certificaciones/imagen5.jpg';
+
 const AboutMe = () => {
     const listWebDevelopment = [
     {
@@ -114,12 +121,12 @@ const AboutMe = () => {
                                         <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                             <TitleSkill title="certificaciones"/>
                                             <div className='grid grid-cols-2 gap-4 mt-4'>
-                                                <ImageCerti/>
-                                                <ImageCerti/>
-                                                <ImageCerti/>
-                                                <ImageCerti/>
-                                                <ImageCerti/>
-                                                <ImageCerti/>
+                                                <ImageCerti ImageCertificado={ImageCertificado1} href="https://www.udemy.com/certificate/UC-05415145-01b7-4b76-af2d-e2af9ecb4fa6/"/>
+                                                <ImageCerti ImageCertificado={ImageCertificado2} href="https://www.udemy.com/certificate/UC-ce6c730e-0a74-49eb-a1f2-db2df5da66ae/"/>
+                                                <ImageCerti ImageCertificado={ImageCertificado3} href="https://www.udemy.com/certificate/UC-3e2a9203-73a9-49ca-8198-ed83fab0aec4/"/>
+                                                <ImageCerti ImageCertificado={ImageCertificado4} href="https://www.udemy.com/certificate/UC-3e11af2f-bbe6-47f9-80d8-d0ccbbe0c89c/"/>
+                                                <ImageCerti ImageCertificado={ImageCertificado5} href="https://www.udemy.com/certificate/UC-280e8030-a6af-4083-b8a7-4b618fa6e83c/"/>
+                                                <ImageCerti ImageCertificado={ImageCertificado6} href="https://www.udemy.com/certificate/UC-734cde36-ec7f-4b02-8fc3-d9617940bf0c/"/>
                                             </div>
                                         </div>
                                     </div>

@@ -1,10 +1,8 @@
-import React from 'react'
-import ImageCertin from "/src/assets/certificaciones/imagen.jpg";
 
-const ImageCerti = () => {
+const ImageCerti = ({ImageCertificado, href}) => {
   return (
-    <a href="" className='bg-white'>
-        <img src={ImageCertin} className='w-auto' alt="imagen de certificación" />
+    <a href={href} className='bg-white' rel="noopener noreferrer" target="_blank">
+        <img src={ImageCertificado} className='w-auto' alt="imagen de certificación" />
     </a>
   )
 }
