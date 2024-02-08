@@ -14,9 +14,9 @@ const NavigationBar = () => {
           </NavLink>
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
               <button type="button" className="flex items-center text-white  focus:outline-none font-bold rounded-lg text-sm  text-center border border-purple-600 p-1">
-                <span className='bg-violet-700 hover:bg-violet-800 px-4 py-2 rounded-md'><IconTelephone/></span><span className='px-2'>+57 3127393740</span>
+                <span className='bg-violet-700 hover:bg-violet-800 px-4 py-2 rounded-md text-white'><IconTelephone/></span><span className='px-2'>+57 3127393740</span>
               </button>
-              <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <button data-collapse-toggle="navbar-sticky" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 hover:text-black focus:outline-none" aria-controls="navbar-sticky" aria-expanded="false">
                 <span className="sr-only">Open main menu</span>
                 <IconMenu/>
               </button>
