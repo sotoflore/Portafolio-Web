@@ -17,13 +17,13 @@ const Projects = () => {
                     <CardProject
                         imageUrl="https://i.postimg.cc/Gh0C6YH9/proyecto-catalogo-en-linea.png"
                         title="Website Catálogo de Productos"
-                        description="Sitio web que ofrece venta de libros de Ciencia de Datos, Ingeniería de Datos, Análisis de Datos y Data Management."
+                        description="Tienda en línea de variedad de productos, esta implementado con React, Bootstrap, html5 y un archivo json para el almacenamiento de los productos."
                         projectLink="https://catalogo-online.netlify.app/" 
                     />
                     <CardProject
                         imageUrl="https://i.postimg.cc/HkfYD9rq/proyecto-colibrotech.png"
                         title="Website Colibrotech"
-                        description="Sitio web con experiencia en el mundo inmobiliario aliado en procesos de cartera y trámites de escrituración. Mediante procesos, operación y tecnología, administran cada uno de tus negocios automatizando, integrando y brindando una atención al cliente de calidad."
+                        description="Sitio web que ofrece venta de libros de Ciencia de Datos, Ingeniería de Datos, Análisis de Datos y Data Management."
                         projectLink="https://sotoflore.github.io/WebSite-ColibroTech/"
                     />
                 </div>
