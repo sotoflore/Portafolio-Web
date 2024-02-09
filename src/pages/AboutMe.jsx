@@ -48,7 +48,7 @@ const AboutMe = () => {
                         </div>
                         </div>
                         <div className="sm:w-2/3  sm:py-8 pt-4 px-10 md:px-0 sm:mt-0 sm:text-left">
-                            <p className="leading-relaxed text-lg mb-4 ps-1 text-white">
+                            <p className="leading-relaxed text-lg mb-4 ps-1 text-white text-justify">
                                 Soy Ingeniero de Telecomunicaciones
                                 especializado en desarrollo web.
                                 Mi enfoque se centra en la creación de soluciones web robustas, 
