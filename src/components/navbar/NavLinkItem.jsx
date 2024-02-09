@@ -1,8 +1,8 @@
 import { NavLink } from "react-router-dom";
 
-const NavLinkItem = ( {to, text} ) => {
+const NavLinkItem = ( {to, text, onClick} ) => {
   return (
-    <li>
+    <li className="cursor-pointer" onClick={onClick}>
         <NavLink
           style={({ isActive, isPending }) => ({
             background: isActive ? "#6d28d9" : "inherit",

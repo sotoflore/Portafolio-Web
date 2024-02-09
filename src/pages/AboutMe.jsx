@@ -42,9 +42,9 @@ const AboutMe = () => {
                         <img src={imageFoto} className='rounded-lg' alt="foto de francisco soto" />
                         <div className="flex flex-col text-center justify-center">
                             <h2 className="text-center font-bold mt-4 text-gray-50 text-lg">Desarrollador Web</h2>
-                            <div className="self-center w-20 h-1 bg-purple-600 rounded mt-2 mb-4"></div>
-                            <ContactIcon text="sotofloresfrancisco@gmail.com"><IconEmail/></ContactIcon>
-                            <ContactIcon text="+57 3127393740"><IconTelephone/></ContactIcon>
+                            <div className="self-center w-20 h-1 bg-purple-600 rounded mb-4"></div>
+                            <p className='text-gray-400'>sotofloresfrancisco@gmail.com</p>
+                            <p className='text-gray-400'>+57 3127393740</p>
                         </div>
                         </div>
                         <div className="sm:w-2/3  sm:py-8 pt-4 px-10 md:px-0 sm:mt-0 sm:text-left">
