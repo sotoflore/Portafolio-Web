@@ -29,7 +29,7 @@ const NavigationBar = () => {
               </button>
           </div>
           <div className={`per items-center justify-between w-full md:flex md:w-auto md:order-1 ${isMenuVisible ? '' : 'hidden'}`} id="navbar-sticky">
-            <ul className={`flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-4 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-inherit text-black ${isMenuVisible ? '' : 'hidden'}`}>
+            <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-4 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-inherit text-black">
               <NavLinkItem to="/" text="Inicio" />
               <NavLinkItem to="/about" text="Sobre Mí" />
               <NavLinkItem to="/proyectos" text="Proyectos" />
