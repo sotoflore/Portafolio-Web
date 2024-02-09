@@ -24,7 +24,7 @@ const NavigationBar = () => {
 
     return (
         <nav className="fixed w-full z-20 top-0 start-0 backdrop-blur">
-          <div className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4 lg:py-4 max-[320px]:p-1">
+          <div className="max-w-screen-xl flex flex-wrap items-center  justify-between mx-auto p-4 lg:px-20 lg:py-4 max-[320px]:p-1">
             <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src={LogoWebsite} className="h-16" alt="logo del sitio web"/>
             </NavLink>
