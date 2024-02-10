@@ -5,16 +5,16 @@ import CallToAction from '../components/home/CallToAction';
 const AllProjects = () => {
   return (
     <section>
-        <div className="bg-center bg-no-repeat bg-[url('./assets/background-section-projects.jpg')] bg-gray-400 bg-blend-multiply">
-            <div className="px-4 mx-auto max-w-screen-xl text-center py-16">
-                <h1 className="mb-4 text-2xl font-extrabold tracking-tight leading-none text-white md:text-5xl pt-24">Mis Proyectos</h1>
-                <p className="mb-8 text-lg font-normal text-gray-100 lg:text-xl sm:px-16 lg:px-48">
+        <div className='mb-10'>
+            <div className="mt-40 mx-auto max-w-screen-xl ">
+                <h1 className="py-4 text-2xl font-bold text-cyan-800 md:text-5xl text-center bg-cyan-100 border-2 border-cyan-600 rounded-lg mx-6 md:mx-7 lg:mx-0">Mis Proyectos</h1>
+                <p className="text-lg text-gray-600 lg:text-xl py-5 text-center px-6 sm:px-0">
                   Cada proyecto representa un desafío único y una oportunidad para aprender y crecer. Desde desarrollo web hasta diseño de interfaces.
                 </p>
             </div>
         </div>
-        <div className="text-gray-600 body-font md:px-20">
-            <div className="container px-5 py-16 mx-auto text-center">
+        <div className="text-gray-600 body">
+            <div className="text-center">
               <div className="flex flex-wrap mb-10">
                   <CardProject
                         imageUrl="https://i.postimg.cc/G2jdD0XR/proyecto-analytikacore.png"

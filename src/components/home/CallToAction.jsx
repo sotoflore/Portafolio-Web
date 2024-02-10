@@ -3,14 +3,14 @@ import { NavLink } from 'react-router-dom'
 
 const CallToAction = () => {
   return (
-    <article className='text-center'>
-        <div className='mx-10 md:mx-8 lg:px-20'>
-            <div className='bg-gray-800 border border-gray-700 transition duration-500 hover:border-yellow-400 py-8 mb-14 rounded-lg md:px-3 lg:px-0'>
-              <h2 className='text-2xl md:text-4xl text-white font-bold'>¿Tienes algún proyecto en mente?</h2>
-              <p className='text-xl md:text-2xl py-2 text-white'>
+    <article className='text-center mx-5 md:mx-7 lg:mx-0'>
+        <div className='w-full'>
+            <div className='bg-cyan-100 border-2 border-cyan-700 transition duration-500 hover:border-cyan-900 py-8 mb-14 rounded-lg md:px-3 lg:px-0'>
+              <h2 className='text-xl md:text-4xl text-cyan-700 font-bold'>¿Tienes algún proyecto en mente?</h2>
+              <p className='text-lg md:text-2xl py-2 text-gray-800'>
                   ¡Solicita una cotización ahora!
               </p>
-              <NavLink to="/contacto" className="inline-flex items-center text-black border-0 py-2 px-6 rounded text-lg bg-gradient-to-r from-yellow-200 via-yellow-400 to-yellow-500 hover:bg-gradient-to-br focus:outline-none shadow-lg shadow-yellow-500/50 "><span className='pe-1'>Contactar</span><IconArrow/></NavLink>
+              <NavLink to="/contacto" className="inline-flex items-center text-white py-2 px-10 rounded text-lg  bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:outline-none"><span className='pe-1'>Contactar</span><IconArrow/></NavLink>
             </div>
         </div>
     </article>

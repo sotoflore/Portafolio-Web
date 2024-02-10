@@ -4,16 +4,18 @@ const NavLinkItem = ( {to, text, onClick} ) => {
     return (
         <li className="cursor-pointer" onClick={onClick}>
             <NavLink
-              style={({ isActive, isPending }) => ({
-                background: isActive ? "#6d28d9" : "inherit",
-                padding:".3rem .6rem",
-              })}
-              className={`
-                block rounded md:text-gray-50 hover:bg-gray-100
-                md:hover:bg-transparent md:p-0
-                ${(isActive, isPending) => (isActive ? 'active' : isPending ? 'pending' : '')}
-              `}
-              to={to}
+                style={({ isActive, isTransitioning }) => {
+                    return {
+                      background: isActive ? "#7e22ce" : "inherit",
+                      color: isActive ? "#fff" : "#7e22ce",
+                      padding:".3rem .6rem",
+                      display:"block",
+                      borderRadius:"4px",
+                      viewTransitionName: isTransitioning ? "slide" : "",
+                      transition: "all 0.7s, color 0.3s",
+                    };
+                }}
+                to={to}
             >
               {text}
             </NavLink>

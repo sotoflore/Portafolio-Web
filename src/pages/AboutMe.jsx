@@ -7,9 +7,7 @@ import SkillIcon from '../components/About/SkillIcon';
 import StepNumber from '../components/About/StepNumber';
 import TitleSkill from '../components/About/TitleSkill';
 import IconEducation from '../components/icons/IconEducation';
-import IconEmail from '../components/icons/IconEmail';
 import IconSkill from '../components/icons/IconSkill';
-import IconTelephone from '../components/icons/IconTelephone';
 import IconWork from '../components/icons/IconWork';
 
 import ImageCertificado1 from '../assets/certificaciones/imagen.jpg';
@@ -31,24 +29,24 @@ const AboutMe = () => {
   const listVersionControl = [{ title: "Control de Versiones", items: ["Git", "GitHub"] }];
 
   return (
-        <section className="mt-16">
-            <div className="container py-24 mx-auto flex flex-col">
-                <div className="lg:w-4/6 mx-auto">
-                    <div className="flex items-center justify-center rounded-lg h-64 bg-center bg-cover bg-[url('/src/assets/image-section-about.jpg')]">
-                        <h1 className='text-2xl font-bold md:text-5xl uppercase bg-custom-background backdrop-blur py-5 px-10 text-white rounded-lg'>francisco soto flores</h1>
+        <section className="md:mt-16">
+            <div className="py-24 mx-auto flex flex-col">
+                <div>
+                    <div className="flex items-center justify-center rounded-lg bg-cyan-100 border-2 border-cyan-600 mx-6 md:mx-7 lg:mx-0">
+                        <h1 className='text-2xl text-center font-bold md:text-5xl py-5 w-full text-cyan-800'>Francisco Soto Flores</h1>
                     </div>
                     <div className="flex flex-col sm:flex-row mt-10">
-                        <div className="sm:w-1/3 sm:pr-8 sm:py-8 px-10 md:px-10">
-                        <img src={imageFoto} className='rounded-lg' alt="foto de francisco soto" />
-                        <div className="flex flex-col text-center justify-center">
-                            <h2 className="text-center font-bold mt-4 text-gray-50 text-lg">Desarrollador Web</h2>
-                            <div className="self-center w-20 h-1 bg-purple-600 rounded mb-4"></div>
-                            <p className='text-gray-400'>sotofloresfrancisco@gmail.com</p>
-                            <p className='text-gray-400'>+57 3127393740</p>
+                        <div className="p-6 sm:w-1/3 sm:py-8 mx-auto">
+                            <img src={imageFoto} className='rounded-xl shadow-3xl' alt="foto de francisco soto" />
+                            <div className="flex flex-col text-center justify-center">
+                                <h2 className="text-center font-bold mt-4 text-gray-800 text-lg">Desarrollador Web</h2>
+                                <div className="self-center w-20 h-1 bg-purple-600 rounded mb-4"></div>
+                                <p className='text-gray-600'>sotofloresfrancisco@gmail.com</p>
+                                <p className='text-gray-600'>+57 3127393740</p>
+                            </div>
                         </div>
-                        </div>
-                        <div className="sm:w-2/3  sm:py-8 pt-4 px-10 md:px-0 sm:mt-0 sm:text-left">
-                            <p className="leading-relaxed text-lg mb-4 ps-1 text-white text-justify">
+                        <div className="sm:w-2/3 sm:py-8 pt-4 px-10 md:px-0 sm:mt-0 sm:text-left">
+                            <p className="leading-relaxed text-lg mb-4 ps-1 text-gray-600 text-justify md:px-5 lg:px-0">
                                 Soy Ingeniero de Telecomunicaciones
                                 especializado en desarrollo web.
                                 Mi enfoque se centra en la creación de soluciones web robustas, 
@@ -59,7 +57,7 @@ const AboutMe = () => {
                                 y explorando nuevas tecnologías para mantenerme al tanto de las últimas tendencias y 
                                 mejores prácticas en el desarrollo web.
                             </p>
-                            <div className="mt-20 lg:mt-10 md:px-10 lg:px-0">
+                            <div className="mt-0 lg:mt-10 md:px-10 lg:px-0">
                                 <div className="flex relative py-10 sm:items-center">
                                     <LineStep/>
                                     <StepNumber number="1"/>
@@ -69,9 +67,9 @@ const AboutMe = () => {
                                     </SkillIcon>
                                     <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                         <TitleSkill title="educación"/>
-                                        <p className="leading-relaxed text-white">Ingeniería de Telecomunicaciones</p>
-                                        <p className="leading-relaxed text-gray-400">Universidad Pontificia Bolivariana</p>
-                                        <p className="leading-relaxed text-gray-400">2018 - 2023 | Medellín, Colombia</p>
+                                        <p className="leading-relaxed font-bold text-gray-900">Ingeniería de Telecomunicaciones</p>
+                                        <p className="leading-relaxed text-gray-600">Universidad Pontificia Bolivariana</p>
+                                        <p className="leading-relaxed text-gray-600">2018 - 2023 | Medellín, Colombia</p>
                                     </div>
                                     </div>
                                 </div>
@@ -84,13 +82,13 @@ const AboutMe = () => {
                                     </SkillIcon>
                                     <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                                         <TitleSkill title="experiencia"/>
-                                        <p className="leading-relaxed text-white">Soporte Técnico 1° Nivel - Practicante TI | Arintia Group</p>
+                                        <p className="leading-relaxed text-gray-900 font-bold">Soporte Técnico - Practicante TI | Arintia Group</p>
                                         <ul className='list-disc ps-5'>
-                                            <li className='text-gray-400'>Diagnosticar y resolver problemas de hardware y software.</li>
-                                            <li className='text-gray-400'>Instalar y configurar software.</li>
-                                            <li className='text-gray-400'>Realizar mantenimiento preventivo de equipos cómputo.</li>
-                                            <li className='text-gray-400'>Garantizar la seguridad de la información de la empresa.</li>
-                                            <li className='text-gray-400'>Documentar los problemas comunes y las soluciones.</li>
+                                            <li className='text-gray-600'>Diagnosticar y resolver problemas de hardware y software.</li>
+                                            <li className='text-gray-600'>Instalar y configurar software.</li>
+                                            <li className='text-gray-600'>Realizar mantenimiento preventivo de equipos cómputo.</li>
+                                            <li className='text-gray-600'>Garantizar la seguridad de la información de la empresa.</li>
+                                            <li className='text-gray-600'>Documentar los problemas comunes y las soluciones.</li>
                                         </ul>
                                     </div>
                                     </div>
