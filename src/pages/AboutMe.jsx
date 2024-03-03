@@ -1,6 +1,5 @@
 import imageFoto from '../assets/image-francisco-soto.jpg';
 import CardSkill from '../components/About/CardSkill';
-import ContactIcon from '../components/About/ContactIcon';
 import ImageCerti from '../components/About/ImageCerti';
 import LineStep from '../components/About/LineStep';
 import SkillIcon from '../components/About/SkillIcon';
